@@ -1,0 +1,9 @@
+html, body {
+	/* gets rid of the margins, so the rectangle can fill up the entire window */
+	margin: 0;
+}
+
+canvas {
+	/* gets rid of the scroll bars: In HTML, the canvas element has a "display: inline" and this may cause it to have some extra space, making the content area be pushed; it is larger than the browser.*/
+	display: block;
+}
